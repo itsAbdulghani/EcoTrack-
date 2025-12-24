@@ -88,10 +88,10 @@
                 window.print();
             });
             
-            // Download PDF button (placeholder)
-            document.getElementById('downloadBtn').addEventListener('click', function() {
-                alert('PDF download functionality would be implemented here. In a production environment, this would generate and download a PDF version of the manual.');
-            });
+            // // Download PDF button (placeholder)
+            // document.getElementById('downloadBtn').addEventListener('click', function() {
+            //     alert('PDF download functionality would be implemented here. In a production environment, this would generate and download a PDF version of the manual.');
+            // });
             
             // Scroll to top button
             const scrollToTopButton = document.getElementById('scrollToTop');

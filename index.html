@@ -146,10 +146,19 @@
                             <i class="fas fa-print text-gray-600 mr-2"></i>
                             <span class="text-sm">Print Manual</span>
                         </button>
-                        <button id="downloadBtn" class="w-full flex items-center py-2 px-3 bg-gray-100 hover:bg-gray-200 rounded-lg transition">
+                        <button id="downloadBtn"
+                            class="w-full flex items-center py-2 px-3 bg-gray-100 hover:bg-gray-200 rounded-lg transition">
                             <i class="fas fa-file-pdf text-gray-600 mr-2"></i>
                             <span class="text-sm">Download PDF</span>
                         </button>
+
+                        <script>
+                            document.getElementById("downloadBtn").addEventListener("click", function () {
+                                window.location.href = '..\\eco track\\pdfs\\UserManual.pdf';
+                            });
+                        </script>
+
+
                     </div>
                 </div>
                 
